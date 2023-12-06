@@ -1,7 +1,7 @@
 # Is Option[Apple] the same as if(apple != null)?
 
 ## Unsafe access of nullable variables
-
+All code snippets are availalbe in [Apples.scala](./Apples.scala)  
 Consider this code:
 ```scala
 case class Apple(val color: String)
