@@ -144,8 +144,8 @@ Now you have verbose Option code thats unsafe to use, the worst of both worlds :
 Stick to pattern matching.  
 
 ## Conclusion
-Option can be seen as a forced nullcheck for your object.
-It makes the compiler remind/force you to handle all cases, so you never get an unexpected value for "apple" if you try to access apple.color
-Pattern matching will allow us to unwrap the Option[Apple] and handle both cases:
+Option can be seen as a forced nullcheck for your object.  
+It makes the compiler remind/force you to handle all cases, so you never get an unexpected value for "apple" if you try to access apple.color  
+Pattern matching will allow us to unwrap the Option[Apple] and handle both cases:  
 - apple is there: Some(apple)
 - apple is not there: None
